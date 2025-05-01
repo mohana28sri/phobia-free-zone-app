@@ -18,7 +18,7 @@ const HeroSection = ({
   description, 
   buttonText, 
   buttonLink,
-  imageSrc 
+  imageSrc = "/journey-mountains.jpg" // Default image path
 }: HeroSectionProps) => {
   return (
     <section className="py-16 md:py-24">
@@ -43,15 +43,12 @@ const HeroSection = ({
             </div>
           </div>
           <div className="order-first md:order-last animate-fade-in">
-            {imageSrc ? (
-              <img 
-                src={imageSrc}
-                alt="Hero illustration" 
-                className="w-full h-auto rounded-lg shadow-lg breathe-animation"
-              />
-            ) : (
-              <div className="w-full aspect-square md:aspect-video rounded-lg bg-gradient-to-br from-phobia-calm to-phobia-support breathe-animation"></div>
-            )}
+            <img 
+              src={imageSrc}
+              alt="Begin your journey" 
+              className="w-full h-auto rounded-lg shadow-lg object-cover breathe-animation"
+              style={{ maxHeight: '500px' }}
+            />
           </div>
         </div>
       </div>

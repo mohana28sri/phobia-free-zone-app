@@ -16,6 +16,7 @@ const Index = () => {
         description="A supportive space designed to help you understand, manage, and overcome your phobias through personalized guidance, daily exposure exercises, and AI-powered support."
         buttonText="Begin Your Journey"
         buttonLink="/daily-tasks"
+        imageSrc="/journey-mountains.jpg"
       />
 
       <section className="py-20 bg-muted/30">
