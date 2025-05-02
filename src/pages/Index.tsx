@@ -12,7 +12,7 @@ const Index = () => {
     <Layout>
       <HeroSection
         title="Face Your Fears, Find Your Freedom"
-        subtitle="Welcome to PhobiaFree"
+        subtitle="Welcome to FearFree"
         description="A supportive space designed to help you understand, manage, and overcome your phobias through personalized guidance, daily exposure exercises, and AI-powered support."
         buttonText="Begin Your Journey"
         buttonLink="/daily-tasks"
@@ -23,7 +23,7 @@ const Index = () => {
         <div className="container">
           <SectionTitle
             title="How We Can Help"
-            subtitle="PhobiaFree offers a comprehensive approach to overcoming fears"
+            subtitle="FearFree offers a comprehensive approach to overcoming fears"
             centered={true}
           />
 
@@ -64,7 +64,7 @@ const Index = () => {
         <div className="container">
           <SectionTitle
             title="Success Stories"
-            subtitle="Read how PhobiaFree has helped others overcome their fears"
+            subtitle="Read how FearFree has helped others overcome their fears"
             centered={true}
           />
 
@@ -120,7 +120,7 @@ const testimonials = [
   {
     name: "Sarah M.",
     phobia: "Arachnophobia (Fear of Spiders)",
-    quote: "After 6 weeks with PhobiaFree, I can now remove spiders from my home without panic attacks. The daily tasks were life-changing."
+    quote: "After 6 weeks with FearFree, I can now remove spiders from my home without panic attacks. The daily tasks were life-changing."
   },
   {
     name: "Michael T.",

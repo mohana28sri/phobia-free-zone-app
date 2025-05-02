@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <Heart className="h-6 w-6 text-phobia-healing" />
-          <span className="text-xl font-serif font-bold">PhobiaFree</span>
+          <span className="text-xl font-serif font-bold">FearFree</span>
         </Link>
 
         {/* Mobile menu button */}

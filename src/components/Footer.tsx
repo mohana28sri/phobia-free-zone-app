@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-1 flex flex-col gap-4">
             <Link to="/" className="flex items-center gap-2">
               <Heart className="h-6 w-6 text-phobia-healing" />
-              <span className="text-xl font-serif font-bold">PhobiaFree</span>
+              <span className="text-xl font-serif font-bold">FearFree</span>
             </Link>
             <p className="text-muted-foreground text-sm">
               A safe space to learn about, understand, and overcome your phobias with professional guidance and support.
@@ -73,7 +73,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-10 pt-6 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} PhobiaFree. All rights reserved.
+            © {new Date().getFullYear()} FearFree. All rights reserved.
           </p>
         </div>
       </div>

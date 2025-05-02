@@ -19,7 +19,7 @@ const Chatbot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      content: "Hello! I'm your PhobiaFree AI assistant. How can I help you with your phobia today?",
+      content: "Hello! I'm your FearFree AI assistant. How can I help you with your phobia today?",
       sender: 'bot',
       timestamp: new Date()
     }
@@ -97,7 +97,7 @@ const Chatbot = () => {
                   <AvatarFallback className="bg-primary text-primary-foreground">AI</AvatarFallback>
                 </Avatar>
                 <div>
-                  <CardTitle>PhobiaFree Assistant</CardTitle>
+                  <CardTitle>FearFree Assistant</CardTitle>
                   <CardDescription>AI-powered support for your journey</CardDescription>
                 </div>
               </div>
